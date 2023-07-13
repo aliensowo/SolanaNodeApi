@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    ports:
+      - "11503:11503"
+    command: uvicorn main:app --host 0.0.0.0 --port 11503
+    env_file:
+      - .env
+    depends_on:
+      - tor-core
+
+  tor-core:
+    hostname: tor-core
+    image: tor:latest
+    tty: True

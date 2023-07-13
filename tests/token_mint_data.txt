@@ -1,0 +1,25 @@
+0000
+b8d213aef9cb42b8c375c2566eafc29dee3ccb2aafd2a93353a65583f41963aa
+01
+b8d213aef9cb42b8c375c2566eafc29dee3ccb2aafd2a93353a65583f41963aa
+
+0000
+1c15e424cba673b1878859140d2a2bed400baca8c9674cb816eaa7bde455fc76   -   2tdn2BazUiQdkgHpVb7wZSLRYrkeE3irMUuf57zkiXTb
+01
+1c15e424cba673b1878859140d2a2bed400baca8c9674cb816eaa7bde455fc76   -   2tdn2BazUiQdkgHpVb7wZSLRYrkeE3irMUuf57zkiXTb
+
+
+Token Program: Initialize Mint
+-------------------------------
+data: 00001c15e424cba673b1878859140d2a2bed400baca8c9674cb816eaa7bde455fc76011c15e424cba673b1878859140d2a2bed400baca8c9674cb816eaa7bde455fc76
+
+0000 - Decimals
+1c15e424cba673b1878859140d2a2bed400baca8c9674cb816eaa7bde455fc76   -   2tdn2BazUiQdkgHpVb7wZSLRYrkeE3irMUuf57zkiXTb (Mint Authority)
+01 - ?
+1c15e424cba673b1878859140d2a2bed400baca8c9674cb816eaa7bde455fc76   -   2tdn2BazUiQdkgHpVb7wZSLRYrkeE3irMUuf57zkiXTb (Freeze Authority)
+------------------------------
+rentSysvar: 06a7d517192c5c51218cc94c3d4af17f58daee089ba1fd44e3dbd98a00000000   -   SysvarRent111111111111111111111111111111111
+instruction - accounts[1] - SysvarRent111111111111111111111111111111111 - SysvarRent address
+------------------------------
+mint: 9ba9ed5031782eb93a88cc945787d14a9791333412d5b79e496152d2170783c6  -  BUeUhAhVR8o7TgbQhs6bv28mZNHdhHq6Vq6ssEc7iXH7 (Token account address)
+
